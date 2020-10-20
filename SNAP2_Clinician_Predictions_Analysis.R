@@ -1551,3 +1551,79 @@ ggplot(filter(plot_rms, !is.na(predicted))) +
 ## ----SNAP2_Clinician_Prediction_sessionInfo------------------------------
 sessionInfo()
 
+## R version 3.5.2 (2018-12-20)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 18363)
+## 
+## Matrix products: default
+## 
+## locale:
+## [1] LC_COLLATE=English_United Kingdom.1252 
+## [2] LC_CTYPE=English_United Kingdom.1252   
+## [3] LC_MONETARY=English_United Kingdom.1252
+## [4] LC_NUMERIC=C                           
+## [5] LC_TIME=English_United Kingdom.1252    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+##  [1] survminer_0.4.3     ggpubr_0.1.8        magrittr_1.5       
+##  [4] nricens_1.6         cowplot_0.9.3       DiagrammeRsvg_0.1  
+##  [7] DiagrammeR_0.9.2    pander_0.6.2        PredictABEL_1.2-2  
+## [10] PBSmodelling_2.68.6 epitools_0.5-10     ROCR_1.0-7         
+## [13] gplots_3.0.1        caret_6.0-80        rms_5.1-2          
+## [16] SparseM_1.77        Hmisc_4.1-1         Formula_1.2-3      
+## [19] survival_2.42-6     lattice_0.20-38     pROC_1.12.1        
+## [22] tableone_0.9.3      knitr_1.25          forcats_0.5.0      
+## [25] stringr_1.4.0       dplyr_0.8.5         purrr_0.3.3        
+## [28] readr_1.3.1         tidyr_1.0.2         tibble_2.1.3       
+## [31] ggplot2_3.3.0       tidyverse_1.3.0    
+## 
+## loaded via a namespace (and not attached):
+##   [1] utf8_1.1.4            tidyselect_0.2.5      lme4_1.1-18-1        
+##   [4] htmlwidgets_1.5.1     grid_3.5.2            munsell_0.5.0        
+##   [7] codetools_0.2-15      withr_2.1.2           colorspace_1.3-2     
+##  [10] rgexf_0.15.3          rstudioapi_0.11       geometry_0.3-6       
+##  [13] stats4_3.5.2          robustbase_0.93-2     dimRed_0.1.0         
+##  [16] labeling_0.3          KMsurv_0.1-5          farver_2.0.3         
+##  [19] downloader_0.4        coda_0.19-1           vctrs_0.2.3          
+##  [22] generics_0.0.2        TH.data_1.0-9         ipred_0.9-7          
+##  [25] xfun_0.10             R6_2.2.2              arm_1.10-1           
+##  [28] rsvg_1.3              DRR_0.0.3             bitops_1.0-6         
+##  [31] reshape_0.8.7         assertthat_0.2.0      scales_1.1.0         
+##  [34] multcomp_1.4-8        nnet_7.3-12           gtable_0.2.0         
+##  [37] ddalpha_1.3.4         sandwich_2.5-0        timeDate_3043.102    
+##  [40] rlang_0.4.5           MatrixModels_0.4-1    CVST_0.2-2           
+##  [43] cmprsk_2.2-7          RcppRoll_0.3.0        splines_3.5.2        
+##  [46] ModelMetrics_1.2.0    acepack_1.4.1         broom_0.5.5          
+##  [49] brew_1.0-6            checkmate_1.8.5       yaml_2.2.0           
+##  [52] reshape2_1.4.3        abind_1.4-5           modelr_0.1.6         
+##  [55] backports_1.1.2       tools_3.5.2           lava_1.6.3           
+##  [58] tcltk_3.5.2           influenceR_0.1.0      ellipsis_0.3.0       
+##  [61] RColorBrewer_1.1-2    Rcpp_1.0.1            plyr_1.8.6           
+##  [64] base64enc_0.1-3       visNetwork_2.0.4      rpart_4.1-13         
+##  [67] viridis_0.5.1         zoo_1.8-3             sfsmisc_1.1-2        
+##  [70] haven_2.2.0           cluster_2.0.7-1       fs_1.3.2             
+##  [73] survey_3.33-2         data.table_1.12.8     reprex_0.3.0         
+##  [76] mvtnorm_1.0-8         xtable_1.8-3          hms_0.5.3            
+##  [79] evaluate_0.14         XML_3.98-1.16         readxl_1.3.1         
+##  [82] gridExtra_2.3         compiler_3.5.2        KernSmooth_2.23-15   
+##  [85] V8_1.5                crayon_1.3.4          minqa_1.2.4          
+##  [88] htmltools_0.4.0       lubridate_1.7.4       generalhoslem_1.3.2  
+##  [91] DBI_1.0.0             magic_1.5-8           dbplyr_1.4.2         
+##  [94] MASS_7.3-51.1         Matrix_1.2-15         cli_1.1.0            
+##  [97] gdata_2.18.0          gower_0.1.2           igraph_1.2.2         
+## [100] km.ci_0.5-2           pkgconfig_2.0.2       foreign_0.8-71       
+## [103] recipes_0.1.3         xml2_1.2.4            foreach_1.4.4        
+## [106] prodlim_2018.04.18    rvest_0.3.5           digest_0.6.25        
+## [109] pls_2.7-0             rmarkdown_1.16        cellranger_1.1.0     
+## [112] survMisc_0.5.5        htmlTable_1.12        Rook_1.1-1           
+## [115] PresenceAbsence_1.1.9 curl_4.3              kernlab_0.9-27       
+## [118] gtools_3.8.1          quantreg_5.36         nloptr_1.0.4         
+## [121] lifecycle_0.2.0       nlme_3.1-137          jsonlite_1.6.1       
+## [124] viridisLite_0.3.0     fansi_0.4.0           labelled_1.1.0       
+## [127] pillar_1.4.3          httr_1.4.1            DEoptimR_1.0-8       
+## [130] glue_1.4.0            iterators_1.0.10      class_7.3-14         
+## [133] stringi_1.1.7         polspline_1.1.13      latticeExtra_0.6-28  
+## [136] caTools_1.17.1.1      e1071_1.7-0
